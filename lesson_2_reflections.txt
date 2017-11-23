@@ -1,0 +1,7 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When a repository is initialized, inside the directory, a .git file will be created, where the "." will tell the computer to hide the folder, granted a normal, everyday file explorer is used. In this hidden directory, is where the metadata is stored. Now from my assumptions, I will assert that this is indeed where the commits and their ID's are stored, within the .git folder.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area, is like a temporary holder of all the files, like a coffee tray, that you put all the coffee mugs on before taking it to the recipient, which is what the working directory is. So unlike the coffee tray analogy, the working directory is the only recipient regardless of how many coffee's(files) there are.
